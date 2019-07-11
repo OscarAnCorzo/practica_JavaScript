@@ -20,5 +20,5 @@ console.log(texto);
 var busqueda = lista.findIndex(elemento => elemento == 'mundo'); //busca el primer elemento en la lista y lo retorna
 console.log(busqueda);
 
-var busqueda = lista.some(elemento => elemento == 'mndo'); //busca el primer elemento en la lista y retorn true o false
+var busqueda = lista.some(elemento => elemento == 'mundo'); //busca el primer elemento en la lista y retorn true o false
 console.log(busqueda);
