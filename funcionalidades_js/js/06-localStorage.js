@@ -26,4 +26,10 @@ window.addEventListener('load', ()=>{
     // console.log(localStorage.getItem('usuario'));  -- esto me devuelve un string, texto plano
     console.log(JSON.parse(localStorage.getItem('usuario')));
 
+    // eliminar elementos 
+    localStorage.removeItem('clave');
+
+    // limpiar todo 
+    localStorage.clear();
+
 });
